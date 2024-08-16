@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-mini_3</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h2>Danh muc san pham</h2>
+  <div id="category" class="category__list">
+
+  </div>
+
+  <h2>Danh sach san pham</h2>
+  <div class="search" id="search">
+    <input type="text">
+    <button>Search</button>
+  </div>
+
+  <select name="filter" id="filter">
+    <option value="mac-dinh">Mac dinh</option>
+    <option value="gia-thap-den-cao">Gia thap den cao</option>
+    <option value="gia-cao-den-thap">Gia cao den thap</option>
+    <option value="giam-gia-nhieu">Giam gia nhieu</option>
+  </select>
+
+  <div id="products" class="product__list">
+
+  </div>
+
+  <div class="pagination">
+    <button class="pagination_button" id="paginationPrev">Prev</button>
+    <div class="pagination_number" id="paginationNumber">1</div>
+    <button class="pagination_button" id="paginationNext">Next</button>
+  </div>
+
+  <script type="module" src="js/category.js"></script>
+  <script type="module" src="js/product.js"></script>
+</body>
+
+</html>
